@@ -69,7 +69,7 @@ public class CanvasManager : MonoBehaviour
 
         scoreTxt.text = player.score.ToString();
     }
-
+/*
     public void WinGame()
     {
         InGamePanel.DOFade(0, 0.3f);
@@ -82,7 +82,7 @@ public class CanvasManager : MonoBehaviour
 
         WinPanelCamera.SetActive(true);
     }
-
+*/
     public void LoseGame()
     {
         InGamePanel.DOFade(0, 0.3f);
@@ -90,8 +90,8 @@ public class CanvasManager : MonoBehaviour
         InGamePanel.blocksRaycasts = false;
 
         LosePanel.DOFade(1, 0.3f);
-        InGamePanel.interactable = true;
-        InGamePanel.blocksRaycasts = true;
+        LosePanel.interactable = true;
+        LosePanel.blocksRaycasts = true;
 
         LosePanel.GetComponent<RectTransform>().DOScale(Vector3.one, 0.3f);
         CameraController.ins.ShakeCamera(0.5f);
