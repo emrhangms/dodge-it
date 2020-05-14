@@ -39,9 +39,6 @@ public class Player : MonoBehaviour
         RotateMesh();
     }
 
-    public float timer = 5;
-    public float time = 1;
-
     public Timer scoreTimer = new Timer();
 
     void Update()

@@ -1911,7 +1911,7 @@ PrefabInstance:
     - target: {fileID: 4116567554357047537, guid: f4b445f12388e7a4bb4b49ca0056a767,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.9000006
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4116567554357047537, guid: f4b445f12388e7a4bb4b49ca0056a767,
         type: 3}
@@ -4362,6 +4362,7 @@ MonoBehaviour:
   - {fileID: 5544901626361193139, guid: 655ceb2b3c6401b40b62fee1b2e28b88, type: 3}
   - {fileID: 7427089892076215406, guid: 1c905c33392eef54c9c940353923de04, type: 3}
   - {fileID: 1930572278153569832, guid: d4538c2450fd3394ea7d90e5bec0d9af, type: 3}
+  - {fileID: 1930572278153569832, guid: c36ff8e96173b914b9381448e9ffa114, type: 3}
   activeRoads: []
   maxRoadCount: 3
 --- !u!1 &770593902

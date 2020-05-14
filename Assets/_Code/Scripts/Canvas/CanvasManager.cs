@@ -88,7 +88,7 @@ public class CanvasManager : MonoBehaviour
         InGamePanel.DOFade(0, 0.3f);
         InGamePanel.interactable = false;
         InGamePanel.blocksRaycasts = false;
-
+	
         LosePanel.DOFade(1, 0.3f);
         LosePanel.interactable = true;
         LosePanel.blocksRaycasts = true;
